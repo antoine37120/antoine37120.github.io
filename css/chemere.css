@@ -1,0 +1,37 @@
+.wrap-col {
+  zoom: 1; /* "hasLayout", empêche le dépassement
+              des flottants dans IE 6-7 */
+}
+.wrap-col:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.section.float-col {
+	padding: 0;
+}
+.col-1-2 {
+	float: left;
+	width: 312px;
+	margin: 20px 0 0 20px;
+}
+
+.col-2-2 {
+	float: left;
+	width: 604px;
+	margin: 20px 20px 0 20px;
+}
+
+
+
+.float-col h2 {
+	margin-left: 20px;
+
+}
+
+.float-col h3 {
+	color: black;
+	text-transform: uppercase;
+	margin: 10px;
+
+}
